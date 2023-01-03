@@ -1,0 +1,28 @@
+package com.example.demo.model;
+
+public class LcmOpOcpPollngRequest {
+	
+	private final String vnflcId;
+	private final ResourceManagerDeploymentLocation deploymentLocation;
+	
+	
+	public LcmOpOcpPollngRequest(String vnflcId, ResourceManagerDeploymentLocation deploymentLocation) {
+		super();
+		this.vnflcId = vnflcId;
+		this.deploymentLocation = deploymentLocation;
+	}
+
+
+	public String getVnflcId() {
+		return vnflcId;
+	}
+
+
+	public ResourceManagerDeploymentLocation getDeploymentLocation() {
+		return deploymentLocation;
+	}
+	
+	
+	
+
+}

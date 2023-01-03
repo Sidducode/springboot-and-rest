@@ -1,0 +1,11 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<body>
+<h1>siddilasha</h1>
+<h1 th:text="${message}"></h1>
+</br>
+<div th:text="${message}"></div>
+</body>
+
+
+</html>

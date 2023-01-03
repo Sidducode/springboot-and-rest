@@ -1,0 +1,23 @@
+package com.example.product.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.product.ProductRepos;
+import com.example.product.entity.Product;
+
+@RestController
+public class ProductController {
+
+	@Autowired
+	ProductRepos productRepos;
+	
+	
+	public List<Product> getAll(){
+		
+		return productRepos.findAll();
+		
+	}
+}

@@ -1,0 +1,23 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class HelloController {
+
+	@RequestMapping("/hello")
+	public String hello() {
+		return null;
+		
+	}
+	
+	@RequestMapping("/sendData")
+	public ModelAndView sendData() {
+		ModelAndView mav= new ModelAndView("data");
+		mav.addObject("message", "tis time to code");
+		return mav;
+	}
+	
+}

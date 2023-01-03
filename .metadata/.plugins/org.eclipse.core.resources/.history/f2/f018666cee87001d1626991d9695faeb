@@ -1,0 +1,38 @@
+package com.example.demo.model;
+
+public class ExecutionAsyncResponse {
+	
+	private String requestId;
+	private Long timeStamp;
+	
+	
+	public ExecutionAsyncResponse(String requestId, Long timeStamp) {
+		super();
+		this.requestId = requestId;
+		this.timeStamp = timeStamp;
+	}
+
+
+	public String getRequestId() {
+		return requestId;
+	}
+
+
+	public void setRequestId(String requestId) {
+		this.requestId = requestId;
+	}
+
+
+	public Long getTimeStamp() {
+		return timeStamp;
+	}
+
+
+	public void setTimeStamp(Long timeStamp) {
+		this.timeStamp = timeStamp;
+	}
+	
+	
+	
+
+}

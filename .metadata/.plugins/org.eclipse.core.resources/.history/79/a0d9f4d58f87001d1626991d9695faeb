@@ -1,0 +1,11 @@
+package com.example.demo.model;
+
+public class ExecutionAsyncResponse {
+	
+	private String requestId;
+	private Long timeStamp;
+	
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.example.mvcweb.entity;
+
+public class Bus {
+
+}

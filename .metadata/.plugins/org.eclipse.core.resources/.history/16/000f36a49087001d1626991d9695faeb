@@ -1,0 +1,14 @@
+package com.example.demo.model;
+
+public class ResourceManagerDeploymentLocation {
+
+	
+	private String resourcemanager;
+	private String name;
+	private String type;
+	
+	
+	
+	
+	
+}

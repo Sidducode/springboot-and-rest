@@ -1,0 +1,10 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<body>
+<h1>Hello Theamleaf !!!!</h1>
+</body>
+
+<h1th:text="${message}"></h1>
+</br>
+<div th:text="${message}"></div>
+</html>

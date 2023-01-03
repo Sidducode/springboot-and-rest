@@ -1,0 +1,18 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.entity.Product;
+
+@RestController
+public class ProductController {
+	
+	
+	public List<Product>  getProducts(){
+		return null;
+		
+	}
+
+}

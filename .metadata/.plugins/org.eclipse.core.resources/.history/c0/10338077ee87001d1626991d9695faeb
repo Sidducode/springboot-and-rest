@@ -1,0 +1,16 @@
+package com.example.demo.service.impl;
+
+import com.example.demo.model.ExecutionAsyncResponse;
+import com.example.demo.service.ExternalMessingService;
+
+public class ExternalMessagingServiceImpl implements ExternalMessingService {
+
+	private final KafkaTemplate<String,String> KafkaTemplate;
+	
+	@Override
+	public void sendAsynicResponse(ExecutionAsyncResponse executionAsyncResponse, String tentId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
